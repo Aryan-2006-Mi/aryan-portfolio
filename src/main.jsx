@@ -151,7 +151,13 @@ function App() {
             <div className="portrait-placeholder">
               <div className="portrait-ring ring-one" />
               <div className="portrait-ring ring-two" />
-              <img className="profile-photo" src="/profile.jpg" alt="Aryan Mishra" />
+              
+<img
+  className="profile-photo"
+  src={`${import.meta.env.BASE_URL}profile.jpg`}
+  alt="Aryan Mishra"
+/>
+
               <div className="portrait-caption">CURIOUS BY NATURE.<br />BUILDER BY CHOICE.</div>
             </div>
             <div className="visual-bottom">
